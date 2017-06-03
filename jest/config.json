@@ -1,0 +1,21 @@
+{
+  "collectCoverage": true,
+  "coverageDirectory": "test/coverage",
+  "coverageReporters": [
+    "cobertura"
+  ],
+  "testRegex": "(/test/unit/.*|\\.(spec))\\.(js|ts)$",
+  "transform": {
+    ".*": "./jest/preprocessor.js"
+  },
+  "setupTestFrameworkScriptFile": "./jest/config.js",
+  "testPathIgnorePatterns": [
+    "/node_modules/",
+    "/test/e2e/"
+  ],
+  "moduleFileExtensions": [
+    "ts",
+    "tsx",
+    "js"
+  ]
+}
