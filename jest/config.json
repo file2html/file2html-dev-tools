@@ -6,9 +6,9 @@
   ],
   "testRegex": "(/test/unit/.*|\\.(spec))\\.(ts)$",
   "transform": {
-    ".*": "./jest/preprocessor.js"
+    ".*": "./node_modules/file2html-dev-tools/jest/preprocessor.js"
   },
-  "setupTestFrameworkScriptFile": "./jest/setup.js",
+  "setupTestFrameworkScriptFile": "./node_modules/file2html-dev-tools/jest/setup.js",
   "testPathIgnorePatterns": [
     "/node_modules/",
     "/test/e2e/"
