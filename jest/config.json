@@ -4,11 +4,11 @@
   "coverageReporters": [
     "cobertura"
   ],
-  "testRegex": "(/test/unit/.*|\\.(spec))\\.(js|ts)$",
+  "testRegex": "(/test/unit/.*|\\.(spec))\\.(ts)$",
   "transform": {
     ".*": "./jest/preprocessor.js"
   },
-  "setupTestFrameworkScriptFile": "./jest/config.js",
+  "setupTestFrameworkScriptFile": "./jest/setup.js",
   "testPathIgnorePatterns": [
     "/node_modules/",
     "/test/e2e/"
